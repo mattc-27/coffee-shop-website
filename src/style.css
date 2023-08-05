@@ -18,6 +18,7 @@ Color palete ---
     margin: 0;
     padding: 0;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -30,7 +31,7 @@ Color palete ---
     align-items: center;
     height: auto;
     background-color: #372C23;
-    font-family: 'Poppins', sans-serif;
+
 }
 
 .mobileTitle h1 {
@@ -81,95 +82,10 @@ Color palete ---
     padding: 0;
      ***/
 .mainContainer {
-
     width: 100%;
     margin: 0;
     padding: 0;
 }
-
-.sectionStyle-a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
-
-.sectionStyle-b {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-
-.welcomeDesc,
-.aboutPageDesc {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#Welcome {
-    flex-direction: column-reverse;
-}
-
-#Contact {
-    background-color: #372C23;
-    align-items: flex-start;
-    justify-content: center;
-    height: 80%;
-}
-
-#Reviews {
-    background-color: #fff;
-}
-
-
-.sectionDesc {
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1%;
-}
-
-.contactSection {
-    display: flex;
-    flex-direction: column;
-    height: 90%;
-    font-size: 1.4em;
-    font-weight: 300;
-    color: #fff;
-    padding: 1%;
-}
-
-.contactBody {
-    align-self: center;
-    width: 80%;
-    padding: 1%;
-}
-
-.contactBody p {
-    margin: 1% 0;
-    line-height: 2;
-}
-
-.contactBody h2 {
-    font-size: 2em;
-    font-weight: 300;
-    line-height: 2.5;
-    text-decoration: underline;
-}
-
 
 /* || WELCOME ***/
 .heroSection {
@@ -179,11 +95,11 @@ Color palete ---
     justify-content: center;
     align-items: center;
     height: auto;
-    font-family: 'Poppins', sans-serif;
     width: 100%;
     margin: 0;
     padding: 0;
 }
+
 .heroText {
     display: flex;
     flex-direction: column;
@@ -191,32 +107,68 @@ Color palete ---
     align-items: center;
     width: 80%;
     font-size: 1.5em;
-    margin: 1%;
-    padding: 1%;
-    color: #372C23;
     line-height: 2;
     background: #ffffff8b;
     backdrop-filter: blur(10px);
 }
 
 
+
+.sectionContainer-a {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.sectionContainer-b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.sectionDesc-b {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.sectionStyle-a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 /* || welcome section ***/
 
-.welcomeText {
+.sectionText-a {
     display: flex;
     flex-direction: column;
     width: 80%;
     font-size: 1.2em;
     font-weight: 300;
     line-height: 2;
-    font-family: 'Poppins', sans-serif;
+
 }
 
-.welcomeText p {
+.sectionText-a p {
     margin: 1% 0;
 }
 
-.welcomeImg {
+.section-a-img {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -225,31 +177,6 @@ Color palete ---
 }
 
 /* || menu section ***/
-
-.sectionDesc-b {
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1%;
-}
-
-.menuText {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    font-size: 1.2em;
-    font-weight: 300;
-    line-height: 2;
-    font-family: 'Poppins', sans-serif;
-}
-
-.menuImg {
-    width: 100%;
-    padding: 1%;
-}
-
 #viewMenu {
     height: 2.25em;
     font-size: 1em;
@@ -260,6 +187,44 @@ Color palete ---
     cursor: pointer;
 }
 
+#Contact {
+    background-color: #372C23;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80%;
+    color: #fff;
+}
+
+.contactDesc {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.contactBody {
+    align-self: center;
+    width: 80%;
+}
+
+.contactBody p {
+    margin: 1% 0;
+    line-height: 2;
+    color: #fff;
+}
+
+.contactBody h2 {
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 2.5;
+    text-decoration: underline;
+    color: #fff;
+}
+
+
+
+
 
 /* || CONTACT  ***/
 
@@ -267,7 +232,6 @@ Color palete ---
 .contactForm {
     display: flex;
     flex-direction: column;
-    padding: 1%;
     flex-basis: 100%;
     background-color: #f3f3f3b5;
     backdrop-filter: blur(10px);
@@ -327,14 +291,12 @@ form label {
 
 /* || REVIEWS ***/
 .reviewSectionTitle {
-    width: 80%;
+    width: 50%;
     font-size: 2em;
     align-self: flex-start;
     font-weight: 400;
-    padding: 1%;
     color: #372C23;
     border-bottom: 1px solid #372C23;
-    font-family: 'Poppins', sans-serif;
 }
 
 .reviewList {
@@ -344,10 +306,8 @@ form label {
     justify-content: space-evenly;
     height: auto;
     flex-wrap: wrap;
-    padding: 1%;
     margin: 1% 0;
     background-color: #fff;
-    font-family: 'Poppins', sans-serif;
 }
 
 .reviewCard {
@@ -421,7 +381,7 @@ form label {
     font-weight: 200;
     line-height: 2;
     margin: 1%;
-    font-family: 'Poppins', sans-serif;
+
 }
 
 .aboutPageText p {
@@ -465,7 +425,6 @@ form label {
     font-size: 1.2em;
     font-weight: 300;
     line-height: 2;
-    font-family: 'Poppins', sans-serif;
 }
 
 .menuImg {
@@ -514,7 +473,7 @@ form label {
     line-height: 2;
     width: 100%;
     color: #372C23;
-    font-family: 'Poppins', sans-serif;
+
     overflow-x: auto;
     overflow: auto;
 }
@@ -539,7 +498,7 @@ footer {
     height: auto;
     color: #fff;
     background-color: #372C23;
-    font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -618,7 +577,8 @@ footer {
         width: 100%;
         margin: 0;
         background-color: #372C23;
-        font-family: 'Poppins', sans-serif;
+
+
     }
 
     .titleContainer {
@@ -628,7 +588,6 @@ footer {
         align-items: center;
         height: auto;
         flex-grow: 1;
-        padding: 1%;
     }
 
     .titleContainer a {
@@ -658,7 +617,6 @@ footer {
         align-items: center;
         width: 40%;
         margin: 0.5%;
-        padding: 1%;
     }
 
     .navLink,
@@ -668,7 +626,7 @@ footer {
     }
 
     .heroSection {
-        margin: 1% 0;
+        margin: 1%;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -681,9 +639,15 @@ footer {
         font-size: 1.75em;
     }
 
-    .sectionStyle-a,
-    .sectionStyle-b {
+
+    .sectionContainer-a,
+    .sectionContainer-b {
         flex-direction: row;
+        margin: 1% 0;
+    }
+    .sectionStyle-a
+    .sectionStyle-b {
+  
     }
 
 
@@ -713,59 +677,3 @@ footer {
         width: auto;
     }
 }
-
-
-
-/* 
-/* .pageFooter {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-around;
-    align-items: center;
-    color: #fff;
-    height: auto;
-}
-    /*     .pageFooter {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        color: #fff;
-        height: auto;
-    }
-
-
-
-/** Site map 
-.siteMap {
-    display: flex;
-    flex-direction: column;
-    list-style-position: inside;
-    margin: 0.5%;
-    padding: 0.5%;
-    flex-grow: 1;
-    width: auto;
-}
-
-.siteMap p {
-    font-size: 1em;
-    font-weight: 300;
-    width: auto;
-}
-
-.siteMap ul {
-    list-style: none;
-    font-size: 0.8em;
-    font-weight: 200;
-    width: auto;
-}
-
-.siteMap ul li a {
-    color: #fff;
-    text-decoration: none;
-    width: auto;
-}
-
-
-
-*/

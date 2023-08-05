@@ -6,21 +6,10 @@ export default function Footer() {
 
     return (
         <footer>
-            
-                {/*<div className='pageFooter'>
-                <div className='siteMap'>
-                    <p>Site Map</p>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/menu">Menu</a></li>
-                    </ul>
-                </div>    </div>*/}
                 <div className='footerLocation'>
                     <div className='address'>
                         <ul>
                             <li>12345 Main St, Denver, CO, 80021</li>
-
                         </ul>
                     </div>
                     <div className='hours'>
