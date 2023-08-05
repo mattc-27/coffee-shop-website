@@ -10,7 +10,7 @@ import {
 
 import './style.css'
 
-import Home from './Home';
+import Home from './pages/Home';
 import About from './pages/About';
 import MenuPage from './pages/MenuPage';
 import Layout from './components/Layout';
